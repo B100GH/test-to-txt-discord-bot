@@ -39,6 +39,6 @@ Message: ''' +z+"""
 #key = dk.read()
 #dk.close()
 
-key = input('Key -- ')
+key = str(input('Key -- '))
 
 client.run(key)
